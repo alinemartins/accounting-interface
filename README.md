@@ -21,8 +21,7 @@ Foi utilizado:
 <table>
   <tr>
     <td align="center">
-      <a href="#">
-         <sub>
+        <sub>
           <b>Rodolfo Mori</b>
         </sub>
       </a>
