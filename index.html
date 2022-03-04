@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV CONTÁBIL</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="caixa-superior">
+        <div class="cabecalho">
+            <h2 class="titulo-cabecalho">DEV CONTÁBIL</h2>
+            <a href="#titulo-inferior" class="link-cabecalho">Quem somos</a>
+            <a href="#titulo-meio" class="link-cabecalho">Serviços</a>
+            <a class="link-cabecalho" onclick="chamaoabacate()">Contatos</a>
+        </div>
+
+        <h1>DEV CONTÁBIL</h1>
+        <form id="formulario-contato" action="https://formsubmit.co/aliineemt@gmail.com" method="POST">
+            <h3 class="titulo-formulario">Entre em contato</h3>
+            <label>
+                Nome
+                <input type="text" name="Nome" placeholder="Digite seu nome" required />
+            </label>
+            <label>
+                E-mail
+                <input type="email" name="E-mail" placeholder="Digite seu e-mail" required />
+            </label>
+
+            <label>
+                Fale conosco
+                <textarea name="info" placeholder="Qual sua dúvida"></textarea>
+            </label>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <h2 id="titulo-meio">Nossos Serviços</h2>
+
+    <div class="caixa-central">
+        <div class="card">
+            <h3 class="completa">Contabilidade completa</h3>
+            <ul>
+                <li>Primeiro opção</li>
+                <li>Segundo opção</li>
+                <li>Terceiro opção</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3 class="negocio">Cuidamos do seu negocio</h3>
+            <ul>
+                <li>Primeiro opção</li>
+                <li>Segundo opção</li>
+                <li>Terceiro opção</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3 class="cuidamos">Cuidamos de você e da sua família</h3>
+            <ul>
+                <li>Primeiro opção</li>
+                <li>Segundo opção</li>
+                <li>Terceiro opção</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="caixa-inferior">
+        <h2 id="titulo-inferior">Sobre nós</h2>
+        <p class="parag-inferior"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deserunt. Nemo
+            ratione labore cum aliquid deserunt, pariatur cumque repudiandae, aut quae inventore tempora ad autem
+            ducimus accusamus dolorem qui quos. </p>
+    </div>
+</body>
+
+<script>
+    let formulario = document.getElementById("formulario-contato")
+
+    console.log(formulario)
+
+    function chamaoabacate() {
+        formulario.className = "mostrar-formulario"
+    }
+
+</script>
+
+</html>

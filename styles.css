@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.caixa-superior {
+    background-image: url("./img.pag.contabilidade.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.cabecalho {
+    padding-top: 25px;
+    padding-left: 35px;
+}
+
+.titulo-cabecalho {
+    font-size: 24px;
+    color: #FFFFFF;
+    display: inline;
+}
+
+.link-cabecalho {
+    font-size: 14px;
+    color: #FFFFFF;
+    display: inline;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 58px;
+    color: #FFFFFF;
+    position: relative;
+    top: 250px;
+    margin-left: 65px;
+
+}
+
+form {
+    opacity: 0;
+    transition: 2s;
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    float: right;
+    padding: 20px;
+    margin-right: 40px;
+    position: relative;
+    bottom: 40px;
+}
+
+.mostrar-formulario {
+    visibility: visible;
+    opacity: 1;
+}
+
+input {
+    display: block;
+    background: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+textarea {
+    display: block;
+    height: 80px;
+    width: 250px;
+    background: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.titulo-formulario {
+    font-size: 24px;
+    color: #252b42;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+    color: #252b42;
+}
+
+button {
+    height: 40px;
+    width: 250px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #0000FF;
+    color: #FFFFFF
+}
+
+.caixa-central {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+
+}
+
+#titulo-meio {
+    font-size: 40px;
+    color: #252b42;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    background-color: #ffffFF;
+    border: 1px solid #D3D3D3;
+}
+
+.completa {
+    background: #0000FF;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.negocio {
+    background: #0000FF;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cuidamos {
+    background: #0000FF;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+ul {
+    padding: 20px;
+}
+
+li {
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.caixa-inferior {
+    background-color: #708090;
+
+}
+
+#titulo-inferior {
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.parag-inferior {
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 50px 50px 10px;
+}
