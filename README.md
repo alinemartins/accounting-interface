@@ -16,9 +16,7 @@ Foi utilizado:
 - [x] CSS
 - [x] Javascript
 
-## 🤝 Criação
-
-Contribuição para este projeto:
+## 🤝 Contribuição para este projeto:
 
 <table>
   <tr>
